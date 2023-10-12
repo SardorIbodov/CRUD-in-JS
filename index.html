@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+			<!-- Yangi malumot qo'shish -->
+			<div class="add">
+				<input type="text" placeholder="Name" id="addName" />
+        <input type="number" placeholder="BirthYear" id="addBirthYear" />
+        <button id="addBtn">Add</button>
+      </div>
+			<!-- Qidirish -->
+      <div class="Search">
+				<input type="text" id="search" placeholder="Type to search" />
+      </div>
+			<!-- Saralash  -->
+      <span>Saralash</span>
+      <select id="sortBy">
+				<option value="id">ID</option>
+        <option value="name">Ism</option>
+        <option value="birthYear">Yoshi</option>
+      </select>
+			<!-- Info -->
+			<h1></h1>
+			<!-- Data  -->
+      <table>
+        <thead></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <script src="./script.js" type="module"></script>
+  </body>
+</html>
